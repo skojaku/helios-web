@@ -53,7 +53,7 @@ const urlParams = new URLSearchParams(queryString);
 // let networkName = "net_Olivetti_cosine_k_5"
 // let networkName = "wosAPS-Ok"
 
-let networkName = "WS_10000_10_001"
+let networkName = "legal-citation.xnet"
 if(urlParams.has("network")){
 	networkName = urlParams.get("network");
 }
