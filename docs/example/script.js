@@ -11699,7 +11699,7 @@ function sortByCount(anArray) {
 }
 var queryString = window.location.search;
 var urlParams = new URLSearchParams(queryString);
-var networkName = "WS_10000_10_001";
+var networkName = "legal-citation.xnet";
 if (urlParams.has("network")) {
   networkName = urlParams.get("network");
 }
